@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <link rel="icon" href="https://storage.googleapis.com/lazy-icons/not-found-placeholder.webp" type="image/x-icon">
+    <title>CodeLingo - Master Programming and English</title>
+  </head>
+  <body>
+    {% include 'partials/_header.html' %}
+    <div class="main-content">
+      {% block content %}{% endblock %}
+    </div>
+    <footer>
+      <p>&copy; 2024 CodeLingo. All rights reserved.</p>
+    </footer>
+    <script src="/static/js/home.js"></script>
+  </body>
+</html>
